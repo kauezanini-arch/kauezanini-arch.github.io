@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { display: flex; height: 100vh; margin: 0; font-family: sans-serif; color: white; }
+        
+        /* Coluna 1: O Diferencial */
+        #detalhe { width: 25%; background: red; padding: 20px; }
+        
+        /* Coluna 2: Explicação do Motor */
+        #motor { width: 50%; background: blue; padding: 40px; text-align: center; display: flex; flex-direction: column; justify-content: center; }
+        
+        /* Coluna 3: Dados Técnicos */
+        #dados { width: 25%; background: black; padding: 20px; }
+
+        h2 { border-bottom: 2px solid white; padding-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+    <div id="detalhe">
+        <h2>Tecnologia</h2>
+        <p>O motor <b>Crossplane</b> é o coração dessa moto. Ele utiliza uma ordem de ignição irregular (270°-180°-90°-180°) que elimina vibrações inerciais.</p>
+        <p>Isso entrega um torque muito mais linear e controle total para o piloto.</p>
+    </div>
+
+    <div id="motor">
+        <h1>MOTOR R1 2009</h1>
+        <p style="font-size: 1.5rem;">"O ronco que imita a M1 do Valentino Rossi."</p>
+        <hr style="width: 50%;">
+        <p>O grande motivo para comprar esse modelo é a entrega de potência imediata. É um motor "cheio" em qualquer faixa de rotação, ideal para quem busca performance pura de pista na rua.</p>
+    </div>
+
+    <div id="dados">
+        <h2>Ficha Técnica</h2>
+        <p><b>Tipo:</b> 4 cilindros em linha</p>
+        <p><b>Cilindrada:</b> 998 cc</p>
+        <p><b>Potência:</b> 182 CV a 12.500 RPM</p>
+        <p><b>Torque:</b> 11,8 kgfm</p>
+        <p><b>Som:</b> Rouco (estilo V4)</p>
+    </div>
+
+</body>
+</html>
