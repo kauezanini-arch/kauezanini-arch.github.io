@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body { 
+        display: flex; 
+        height: 100vh; 
+        margin: 0; 
+        font-family: 'Segoe UI', Roboto, sans-serif; 
+        color: white;
+        background: #111;
+    }
+
+    /* Coluna 1: Tecnologia (Vermelho Escuro/Gradiente) */
+    #detalhe { 
+        width: 25%; 
+        background: linear-gradient(135deg, #8b0000 0%, #4a0000 100%);
+        padding: 30px; 
+        box-shadow: inset -5px 0 15px rgba(0,0,0,0.5);
+    }
+
+    /* Coluna 2: Destaque Central (Azul Metálico/Pista) */
+    #motor { 
+        width: 50%; 
+        background: radial-gradient(circle at center, #1a2a6c, #000000);
+        padding: 40px; 
+        text-align: center; 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        border-left: 1px solid rgba(255,255,255,0.1);
+        border-right: 1px solid rgba(255,255,255,0.1);
+    }
+
+    /* Coluna 3: Dados Técnicos (Dark Mode Profundo) */
+    #dados { 
+        width: 25%; 
+        background: linear-gradient(180deg, #1a1a1a 0%, #000000 100%);
+        padding: 30px; 
+    }
+
+    h1 { 
+        font-size: 3.5rem; 
+        margin-bottom: 10px; 
+        text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+        letter-spacing: 2px;
+    }
+
+    h2 { 
+        border-bottom: 2px solid rgba(255,255,255,0.3); 
+        padding-bottom: 10px; 
+        text-transform: uppercase;
+        font-size: 1.2rem;
+    }
+
+    p { line-height: 1.6; color: #e0e0e0; }
+
+    b { color: #fff; text-shadow: 0 0 5px rgba(255,255,255,0.2); }
+
+    .badge {
+        background: rgba(255,255,255,0.1);
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        border-left: 4px solid #fff;
+    }
+</style>
+</head>
+<body>
+
+<div id="detalhe">
+    <h2>Tecnologia</h2>
+    <p>O motor <b>Crossplane</b> é o coração dessa moto. Ele utiliza uma ordem de ignição irregular (270°-180°-90°-180°) que elimina vibrações inerciais.</p>
+    <p>Isso entrega um torque muito mais linear e controle total para o piloto.</p>
+</div>
+
+<div id="motor">
+    <h1>MOTOR R1 2009</h1>
+    <p style="font-size: 1.5rem; font-style: italic; color: #3498db;">"O ronco que imita a M1 do Valentino Rossi."</p>
+    <hr style="width: 20%; border: 1px solid #3498db; margin: 20px auto;">
+    <p style="max-width: 80%; margin: 0 auto; font-size: 1.1rem;">O grande motivo para comprar esse modelo é a entrega de potência imediata. É um motor "cheio" em qualquer faixa de rotação, ideal para quem busca performance pura de pista na rua.</p>
+</div>
+
+<div id="dados">
+    <h2>Ficha Técnica</h2>
+    <div class="badge"><b>Tipo:</b> 4 cilindros em linha</div>
+    <div class="badge"><b>Cilindrada:</b> 998 cc</div>
+    <div class="badge"><b>Potência:</b> 182 CV a 12.500 RPM</div>
+    <div class="badge"><b>Torque:</b> 11,8 kgfm</div>
+    <div class="badge"><b>Som:</b> Rouco (estilo V4)</div>
+</div>
+
+</body>
+</html>
